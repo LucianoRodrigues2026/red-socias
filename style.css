@@ -1,0 +1,71 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("imagens/city-pixel.jpg");
+  background-size: cover;
+  width: 80vw;
+  height: 97vh;
+  position: relative;
+
+
+}
+iframe{
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  
+}
+button:hover{
+  
+}
+
+button#instagran{
+  position: absolute;
+  left: 92vw;
+  top: 104px;
+  transform: translate(-49%, 50%);
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+button#youtube{
+  position: absolute;
+  left: 92vw;
+  top: 210px;
+   transform: translate(-49%, 50%);
+
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+button#github{
+  position: absolute;
+  left: 92vw;
+  top: 314px;
+  transform: translate(-49%, 50%);
+
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+button#x{
+  position: absolute;
+  left: 92vw;
+  top: 422px;
+  transform: translate(-49%, 50%);
+
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
