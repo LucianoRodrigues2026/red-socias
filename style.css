@@ -1,71 +1,101 @@
 @charset "UTF-8";
+
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 body {
-  background-image: url("imagens/city-pixel.jpg");
+  background-image: url("imagens/pacote-d013/imagens/fundo-madeira.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
   background-size: cover;
+  background-attachment: fixed;
   width: 80vw;
-  height: 97vh;
+  height: 100vh;
   position: relative;
 
 
 }
-iframe{
-  background-color: white;
-  width: 300px;
-  height: 500px;
+section > :hover{
+  border: 3px solid lightcyan;
+  transition: 0.3s;
+  
+}
+img#cel {
   position: absolute;
   left: 50vw;
   top: 50vh;
   transform: translate(-50%, -50%);
   
+
 }
-button:hover{
-  
+iframe{
+    position: absolute;
+    left: 50vw;
+    top: 50.5vh;
+    transform: translate(-50%, -50.5%);
+    width: 35vw;
+    height: 60.5vh;
+
 }
 
-button#instagran{
+section#imagens {
   position: absolute;
-  left: 92vw;
-  top: 104px;
-  transform: translate(-49%, 50%);
-  display: block;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-button#youtube{
-  position: absolute;
-  left: 92vw;
-  top: 210px;
-   transform: translate(-49%, 50%);
+  left: 93vw;
+  top: 345px;
+  transform: translate(-49%, -50%);
+  width: 50px;
+  height: 88vh;
+  background-color: rgba(0, 255, 255, 0);
 
-  display: block;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
 }
-button#github{
-  position: absolute;
-  left: 92vw;
-  top: 314px;
-  transform: translate(-49%, 50%);
-
-  display: block;
-  width: 70px;
-  height: 70px;
+#home {
+  position:relative;
+  left: 2px;
+  top: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
+  box-shadow: 0px 0px 15px white;
+
 }
-button#x{
-  position: absolute;
-  left: 92vw;
-  top: 422px;
-  transform: translate(-49%, 50%);
-
+#instagram{
   display: block;
-  width: 70px;
-  height: 70px;
+  position:relative;
+  left: 2px;
+  top: 50px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
+  box-shadow: 0px 0px 15px white;
+}
+#youtube{
+  display: block;
+  position:relative;
+  left: 2px;
+  top: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px white;
+}
+#github{
+  display: block;
+  position:relative;
+  left: 2px;
+  top: 70px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px white;
+}
+#x{
+  display: block;
+  position:relative;
+  left: 2px;
+  top: 80px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px white;
 }
